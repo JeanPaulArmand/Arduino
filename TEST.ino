@@ -4,8 +4,7 @@
 #define echo 5 //HC-SR04 echo pin
 #define serv 2 //Servo(knob) pin
 #define conf 0 //if conf=0 then servo it is on the right side of HS-SR04 else left side
-#define dist 2
-2 //distance between servo and ultrasonic
+#define dist 2 //distance between servo and ultrasonic
 Servo myservo; //servo object
 long duration; //ultrasonic duration
 float pos=90; //servo position
